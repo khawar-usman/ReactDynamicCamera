@@ -650,7 +650,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Usman Khawar Khawar Yousaf (34JV732A2S)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEAD_CODE_STRIPPING = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -663,7 +663,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.usashastudios.test;
 				PRODUCT_NAME = AwesomeProject;
-				PROVISIONING_PROFILE = "ef82b7a8-7bb9-408b-8081-be23c20377d4";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -671,7 +671,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Usman Khawar Khawar Yousaf (34JV732A2S)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -683,7 +683,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.usashastudios.test;
 				PRODUCT_NAME = AwesomeProject;
-				PROVISIONING_PROFILE = "ef82b7a8-7bb9-408b-8081-be23c20377d4";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

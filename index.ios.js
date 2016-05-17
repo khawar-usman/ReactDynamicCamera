@@ -15,7 +15,7 @@
    View
  } from 'react-native';
  import Camera from 'react-native-camera';
- var VIDEO_HEIGH = (Dimensions.get('window').width/6)*9;
+ var VIDEO_HEIGH = (Dimensions.get('window').width/4)*3;
  var VIDEO_WIDTH = Dimensions.get('window').width;
  class AwesomeProject extends Component {
 
@@ -35,6 +35,7 @@
            videoHeightForCrop={VIDEO_HEIGH}>
            <Text style={styles.capture} onPress={this.captureVideo.bind(this)}>[START]</Text>
            <Text style={styles.stop} onPress={this.stopVideo.bind(this)}>[STOP]</Text>
+           <Text style={styles.statusLabel}>[Status]</Text>
 
          </Camera>
        </View>
@@ -66,8 +67,7 @@
    container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    alignItems: 'flex-start',
    },
    preview: {
      height: VIDEO_HEIGH,
@@ -87,6 +87,14 @@
      color: '#000',
      padding: 10,
      margin: 10,
+     width: 80
+   },
+   statusLabel:{
+     backgroundColor: '#fff',
+     borderRadius: 5,
+     color: '#000',
+     padding: 10,
+     marginTop: 150,
      width: 80
    }
  });
